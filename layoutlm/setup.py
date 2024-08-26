@@ -17,7 +17,7 @@ setup(
         "transformers==2.9.0",
         "tensorboardX==2.0",
         "lxml==4.9.4",
-        "seqeval==0.0.12",
+        "seqeval==1.2.2",
         "Pillow==7.1.2",
     ],
     extras_require={
