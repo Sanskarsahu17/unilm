@@ -14,7 +14,7 @@ setup(
     packages=find_packages(exclude=("configs", "tests")),
     python_requires=">=3.6",
     install_requires=[
-        "transformers==2.9.0",
+        "transformers==4.42.4",
         "tensorboardX==2.0",
         "lxml==4.9.4",
         "seqeval==1.2.2",
