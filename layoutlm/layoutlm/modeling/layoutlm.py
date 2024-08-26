@@ -4,7 +4,8 @@ import torch
 from torch import nn
 from torch.nn import CrossEntropyLoss, MSELoss
 from transformers import BertConfig, BertModel, BertPreTrainedModel
-from transformers.models.bert.modeling_bert import BertLayerNorm
+from torch.nn import LayerNorm as BertLayerNorm
+
 
 logger = logging.getLogger(__name__)
 
